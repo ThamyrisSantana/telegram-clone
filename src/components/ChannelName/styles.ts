@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #7868e6;
+  background-color: #3e4056;
 
   h1 {
     margin-left: 2rem;
@@ -14,7 +14,7 @@ export const Container = styled.div`
   }
 
   .icons {
-    color: #edeef7;
+    color: #b2b1b9;
     font-size: 2.2rem;
     padding: 2rem;
 
@@ -22,7 +22,7 @@ export const Container = styled.div`
       margin-left: 2rem;
       cursor: pointer;
       &:hover {
-        filter: brightness(0.9);
+        filter: brightness(2);
       }
     }
   }

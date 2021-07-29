@@ -7,14 +7,16 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  background-color: #7868e6;
-  border-right: 1px solid #493ca0;
+  background-color: #3e4056;
+  border-right: 1px solid #1a1c27;
 
   input {
     width: 90%;
     height: 60%;
 
-    background-color: #b8b5ff;
+    background-color: #3e4056;
+
+    filter: brightness(1.2);
     border: none;
     border-radius: 7px;
 

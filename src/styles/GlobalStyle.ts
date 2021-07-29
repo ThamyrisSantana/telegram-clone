@@ -8,9 +8,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  /* width: 100vw;
-  height: 100vh; */
-  background: #9a9b9e;
+  
   font-family: 'Poppins', sans-serif;
 
 }

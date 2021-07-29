@@ -2,110 +2,19 @@ import React from "react";
 
 import { Container } from "./styles";
 
-const ChannelList: React.FC = () => {
+export interface Props {
+  name: string;
+  message: string;
+}
+
+const ChannelList: React.FC<Props> = ({ name, message }) => {
   return (
     <Container>
       <div className="chat">
         <div className="img"></div>
         <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
-        </div>
-      </div>
-
-      <div className="chat">
-        <div className="img"></div>
-        <div className="infos">
-          <h1>Amor</h1>
-          <p>Te amo, gatinha</p>
+          <h1>{name}</h1>
+          <p>{message}</p>
         </div>
       </div>
     </Container>

@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
-  background-color: #6658c5;
+  background-color: #2c2e43;
 
   max-height: 100vh;
   overflow-y: scroll;
@@ -17,8 +17,8 @@ export const Container = styled.div`
   }
 
   button {
-    background-color: #6658c5;
-    color: #b8b5ff;
+    background-color: transparent;
+    color: #b2b1b9;
     font-size: 3rem;
     width: 100%;
     height: 7rem;
@@ -28,7 +28,6 @@ export const Container = styled.div`
     cursor: pointer;
 
     &:hover {
-      background-color: #4e2a85;
       filter: brightness(1.3);
     }
 
