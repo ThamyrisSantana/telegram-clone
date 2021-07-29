@@ -7,7 +7,7 @@ import { HiDotsVertical, HiPhone, HiSearch } from "react-icons/hi";
 const ChannelData: React.FC = () => {
   return (
     <Container>
-      <h1>Amor</h1>
+      <h1>Gustavo</h1>
       <div className="icons">
         <HiSearch className="item" />
         <HiPhone className="item" />
