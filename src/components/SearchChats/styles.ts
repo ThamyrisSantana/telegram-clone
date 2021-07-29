@@ -15,6 +15,8 @@ export const Container = styled.div`
     height: 60%;
 
     background-color: #3e4056;
+    color: #b2b1b9;
+    font-size: 20px;
 
     filter: brightness(1.2);
     border: none;
@@ -26,6 +28,11 @@ export const Container = styled.div`
       font-size: 1.2rem;
       margin-left: 3rem;
       font-weight: 500;
+      color: #b2b1b9;
     }
+  }
+
+  input:focus {
+    outline: none;
   }
 `;

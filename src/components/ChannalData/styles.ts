@@ -35,6 +35,10 @@ export const InputContainer = styled.div`
     color: #b8b5ff;
   }
 
+  input:focus {
+    outline: none;
+  }
+
   button {
     width: 75px;
     height: 77.75px;

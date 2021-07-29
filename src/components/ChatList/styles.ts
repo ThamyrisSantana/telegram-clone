@@ -72,13 +72,10 @@ export const Container = styled.div`
       align-items: flex-start;
 
       padding-left: 1rem;
+
+      h1 {
+        font-size: 25px;
+      }
     }
   }
-`;
-export const Name = styled.h1`
-  font-size: 25px;
-`;
-
-export const Message = styled.h1`
-  font-size: 25px;
 `;

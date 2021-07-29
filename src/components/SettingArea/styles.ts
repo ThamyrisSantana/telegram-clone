@@ -21,7 +21,7 @@ export const Container = styled.div`
     color: #b2b1b9;
     font-size: 3rem;
     width: 100%;
-    height: 7rem;
+    height: 6.2rem;
     /* margin-top: 1rem; */
 
     border: none;
