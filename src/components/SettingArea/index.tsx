@@ -14,8 +14,8 @@ export const SettingArea: React.FC = () => {
       <button>
         <HiMenu className="menu" />
       </button>
-      <button>
-        <HiOutlineChatAlt2 />
+      <button className="allChats">
+        <HiOutlineChatAlt2 className="chatIcon" />
         <p>All chats</p>
       </button>
       <button>

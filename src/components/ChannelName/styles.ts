@@ -8,9 +8,18 @@ export const Container = styled.div`
   justify-content: space-between;
   background-color: #17212b;
 
-  h1 {
+  .userInfo {
     margin-left: 2rem;
-    color: #edeef7;
+    h1 {
+      font-size: 27px;
+      color: #edeef7;
+    }
+
+    p {
+      font-size: 16px;
+      margin-right: 10px;
+      color: #99acbd;
+    }
   }
 
   .icons {

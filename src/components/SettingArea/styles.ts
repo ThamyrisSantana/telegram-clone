@@ -16,10 +16,19 @@ export const Container = styled.div`
     display: none;
   }
 
+  .allChats {
+    background-color: #25303e;
+    p {
+      color: #5eb5f7;
+    }
+    .chatIcon {
+      color: #5eb5f7;
+    }
+  }
   button {
     background-color: transparent;
     color: #768c9e;
-    font-size: 3rem;
+    font-size: 3.5rem;
     width: 100%;
     height: 7rem;
     /* margin-top: 1rem; */

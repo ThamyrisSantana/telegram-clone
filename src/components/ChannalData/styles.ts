@@ -1,15 +1,21 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  width: 100%;
   grid-area: CD;
 
   background-color: #0e1621;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 `;
-export const MessageContainer = styled.div``;
+export const MessageContainer = styled.div`
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  padding: 2rem 2rem;
+`;
 
 export const InputContainer = styled.div`
   width: 100%;
@@ -18,6 +24,7 @@ export const InputContainer = styled.div`
 
   display: flex;
   align-items: center;
+  justify-self: flex-end;
   justify-content: space-between;
 
   input {

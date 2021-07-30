@@ -37,7 +37,7 @@ export const Container = styled.div`
 
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-      background: #555;
+      filter: blur(200%);
     }
   }
   .chat {
@@ -66,7 +66,6 @@ export const Container = styled.div`
     }
 
     .infos {
-      color: #edeef7;
       height: 5rem;
 
       display: flex;
@@ -95,6 +94,7 @@ export const Container = styled.div`
       }
 
       h1 {
+        color: #edeef7;
         font-size: 25px;
       }
     }
