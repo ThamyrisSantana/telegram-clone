@@ -9,7 +9,7 @@ import styled from "styled-components";
 export const Grid = styled.div`
   display: grid;
 
-  grid-template-columns: 130px 447px auto;
+  grid-template-columns: 150px 447px auto;
   grid-template-rows: 85px auto;
 
   grid-template-areas:

@@ -1,0 +1,38 @@
+{
+  "chats": [
+    {
+      "name": "Gustavo",
+      "message": "Bora ver the bad batch?",
+      "profile": "",
+      "id": 1
+    },
+
+    {
+      "name": "Paula",
+      "message": "Finalizou o projeto?",
+      "profile": "",
+      "id": 2
+    },
+
+    {
+      "name": "Fê",
+      "message": "Dá uma olhada na aula que te mandei",
+      "profile": "",
+      "id": 3
+    },
+
+    {
+      "name": "Marcos",
+      "message": "Preciso de um help com um bug aqui",
+      "profile": "",
+      "id": 4
+    },
+
+    {
+      "name": "Tahy",
+      "message": "Gostou da minha nova ilustração?",
+      "profile": "",
+      "id": 5
+    }
+  ]
+}

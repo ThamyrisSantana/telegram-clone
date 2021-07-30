@@ -7,14 +7,14 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  background-color: #3e4056;
+  background-color: #17212b;
   border-right: 1px solid #1a1c27;
 
   input {
     width: 90%;
     height: 60%;
 
-    background-color: #3e4056;
+    background-color: #242f3d;
     color: #b2b1b9;
     font-size: 20px;
 
@@ -28,7 +28,7 @@ export const Container = styled.div`
       font-size: 1.2rem;
       margin-left: 3rem;
       font-weight: 500;
-      color: #b2b1b9;
+      color: #566877;
     }
   }
 

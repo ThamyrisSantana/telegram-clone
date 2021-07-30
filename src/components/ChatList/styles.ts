@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: initial;
 
-  background-color: #3e4056;
+  background-color: #17212b;
   border-right: 1px solid #1a1c27;
 
   max-height: 100vh;
@@ -25,14 +25,14 @@ export const Container = styled.div`
 
     /* Track */
     ::-webkit-scrollbar-track {
-      background: #b2b1b9;
+      background: #202b36;
       border-radius: 5px;
     }
 
     /* Handle */
     ::-webkit-scrollbar-thumb {
+      background: #73797f;
       border-radius: 5px;
-      background: rgb(105, 105, 105);
     }
 
     /* Handle on hover */
@@ -41,7 +41,8 @@ export const Container = styled.div`
     }
   }
   .chat {
-    background-color: #3e4056;
+    /* width: 447px; */
+    background-color: #17212b;
 
     flex-shrink: 0;
     display: flex;
@@ -49,12 +50,14 @@ export const Container = styled.div`
     cursor: pointer;
 
     height: 7rem;
+
     &:hover {
+      transform: filter 1s;
       filter: brightness(1.2);
     }
 
     .img {
-      background-color: #b2b1b9;
+      background-color: #3e546a;
       width: 5rem;
       height: 5rem;
       margin-left: 1rem;
@@ -72,6 +75,24 @@ export const Container = styled.div`
       align-items: flex-start;
 
       padding-left: 1rem;
+
+      p {
+        color: #768c9e;
+      }
+
+      div {
+        width: 310px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+          align-self: center;
+          justify-self: end;
+          color: #768c9e;
+        }
+      }
 
       h1 {
         font-size: 25px;

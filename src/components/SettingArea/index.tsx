@@ -4,7 +4,7 @@ import { Container } from "./styles";
 import {
   HiMenu,
   HiOutlineChatAlt2,
-  HiFolder,
+  HiOutlineFolder,
   HiOutlineAdjustments,
 } from "react-icons/hi";
 
@@ -16,15 +16,19 @@ export const SettingArea: React.FC = () => {
       </button>
       <button>
         <HiOutlineChatAlt2 />
+        <p>All chats</p>
       </button>
       <button>
-        <HiFolder />
+        <HiOutlineFolder />
+        <p>Chats</p>
       </button>
       <button>
-        <HiFolder />
+        <HiOutlineFolder />
+        <p>Ota</p>
       </button>
       <button>
         <HiOutlineAdjustments />
+        <p>Edit</p>
       </button>
     </Container>
   );

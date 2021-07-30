@@ -4,11 +4,14 @@ import { Container, MessageContainer, InputContainer } from "./styles";
 import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { AiOutlinePaperClip } from "react-icons/ai";
 import { BiMicrophone } from "react-icons/bi";
+import Message from "../Message/index";
 
 const ChannalData: React.FC = () => {
   return (
     <Container>
-      <MessageContainer />
+      <MessageContainer>
+        <Message />
+      </MessageContainer>
       <InputContainer>
         <button>
           <AiOutlinePaperClip />
