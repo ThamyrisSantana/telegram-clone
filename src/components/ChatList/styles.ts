@@ -41,7 +41,6 @@ export const Container = styled.div`
     }
   }
   .chat {
-    /* width: 447px; */
     background-color: #17212b;
 
     flex-shrink: 0;
@@ -80,7 +79,7 @@ export const Container = styled.div`
       }
 
       div {
-        width: 310px;
+        width: 280px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -98,5 +97,24 @@ export const Container = styled.div`
         font-size: 25px;
       }
     }
+
+    @media (max-width: 1245px) {
+      .infos {
+        h1 {
+          font-size: 22px;
+        }
+
+        p {
+        }
+      }
+      .img {
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+  }
+
+  @media (max-width: 1009px) {
+    display: none;
   }
 `;

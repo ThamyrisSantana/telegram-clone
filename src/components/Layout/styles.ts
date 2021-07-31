@@ -17,4 +17,16 @@ export const Grid = styled.div`
     "SA CL CD";
 
   height: 100vh;
+
+  @media (max-width: 1245px) {
+    grid-template-columns: 120px 400px auto;
+  }
+
+  @media (max-width: 1009px) {
+    grid-template-columns: auto;
+
+    grid-template-areas:
+      " CN"
+      " CD";
+  }
 `;

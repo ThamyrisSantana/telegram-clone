@@ -41,6 +41,37 @@ export const MessageContainerMe = styled.div`
       margin-right: 10px;
     }
   }
+
+  @media (max-width: 494px) {
+    h1 {
+      font-size: 16px;
+    }
+
+    div {
+      p {
+        font-size: 17px;
+      }
+
+      .check {
+        font-size: 28px;
+      }
+    }
+  }
+
+  @media (max-width: 492px) {
+    width: 17rem;
+    height: auto;
+  }
+
+  @media (max-width: 338px) {
+    width: 14rem;
+
+    div {
+      .check {
+        font-size: 20px;
+      }
+    }
+  }
 `;
 
 export const MessageContainer = styled.div`
@@ -70,5 +101,26 @@ export const MessageContainer = styled.div`
       font-size: 23px;
       margin-right: 10px;
     }
+  }
+
+  @media (max-width: 494px) {
+    h1 {
+      font-size: 16px;
+    }
+
+    div {
+      p {
+        font-size: 17px;
+      }
+    }
+  }
+
+  @media (max-width: 492px) {
+    width: 17rem;
+    height: auto;
+  }
+
+  @media (max-width: 338px) {
+    width: 14rem;
   }
 `;

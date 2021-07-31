@@ -1,7 +1,8 @@
 import React from "react";
 
 import { Container, MessageContainer, MessageContainerMe } from "./styles";
-import { HiOutlineCheck } from "react-icons/hi";
+// import { HiOutlineCheck } from "react-icons/hi";
+import { BsCheckAll } from "react-icons/bs";
 
 const Message: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ const Message: React.FC = () => {
           <h1>Vou testar aqui e te aviso</h1>
           <div>
             <p>12:19</p>
-            <HiOutlineCheck className="check" />
+            <BsCheckAll className="check" />
           </div>
         </MessageContainerMe>
         <MessageContainer>

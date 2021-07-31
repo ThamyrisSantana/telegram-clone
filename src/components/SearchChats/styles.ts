@@ -35,4 +35,8 @@ export const Container = styled.div`
   input:focus {
     outline: none;
   }
+
+  @media (max-width: 1009px) {
+    display: none;
+  }
 `;

@@ -25,6 +25,7 @@ export const Container = styled.div`
       color: #5eb5f7;
     }
   }
+
   button {
     background-color: transparent;
     color: #768c9e;
@@ -48,5 +49,14 @@ export const Container = styled.div`
     .menu {
       /* margin-bottom: 1.3rem; */
     }
+  }
+  @media (max-width: 1245px) {
+    button {
+      font-size: 2.8rem;
+    }
+  }
+
+  @media (max-width: 1009px) {
+    display: none;
   }
 `;

@@ -4,8 +4,8 @@ import { Grid } from "./styles";
 import SettingArea from "../SettingArea/index";
 import SearchChats from "../SearchChats/index";
 import ChannelList from "../ChatList";
-import ChannelName from "../ChannelName";
-import ChannalData from "../ChannalData/index";
+import ChannelName from "../ChatName";
+import ChannalData from "../ChatData/index";
 
 const Layout: React.FC = () => {
   const [chatData, setChatData] = useState([]);
