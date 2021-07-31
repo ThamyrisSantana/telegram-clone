@@ -77,6 +77,24 @@ export const Container = styled.div`
     }
   }
 
+  @media (max-width: 1009px) {
+    input {
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 732px) {
+    input {
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 548px) {
+    input {
+      width: 50%;
+    }
+  }
+
   @media (max-width: 492px) {
     input {
       width: 45%;

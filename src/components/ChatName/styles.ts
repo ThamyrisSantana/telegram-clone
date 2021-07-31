@@ -64,15 +64,6 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 420px) {
-    .icons {
-      .search,
-      .call {
-        display: none;
-      }
-    }
-  }
-
   @media (max-width: 1009px) {
     div {
       .arrow {
@@ -84,6 +75,15 @@ export const Container = styled.div`
         &:hover {
           filter: brightness(1.5);
         }
+      }
+    }
+  }
+
+  @media (max-width: 537px) {
+    .icons {
+      .search,
+      .call {
+        display: none;
       }
     }
   }

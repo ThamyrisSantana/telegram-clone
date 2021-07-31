@@ -27,7 +27,7 @@ export const Grid = styled.div`
     grid-template-rows: 70px auto;
 
     grid-template-areas:
-      " CN"
-      " CD";
+      "CN"
+      "CD";
   }
 `;
