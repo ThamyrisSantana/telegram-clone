@@ -24,6 +24,7 @@ export const Grid = styled.div`
 
   @media (max-width: 1009px) {
     grid-template-columns: auto;
+    grid-template-rows: 70px auto;
 
     grid-template-areas:
       " CN"
