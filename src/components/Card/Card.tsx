@@ -12,8 +12,6 @@ const Card: React.FC = () => {
     } else {
       setSelected(true);
     }
-
-    console.log("foi");
   }
   return (
     <>

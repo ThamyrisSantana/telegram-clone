@@ -1,4 +1,5 @@
 import React from "react";
+// import { Link } from "react-router-dom";
 
 import { Container } from "./styles";
 
@@ -10,6 +11,8 @@ const ChannelData: React.FC = () => {
     <Container>
       <div>
         <BiLeftArrowAlt className="arrow" />
+        {/* <Link to="/chatList">
+        </Link> */}
         <div className="userInfo">
           <h1>Gustavo</h1>
           <p>Last seen 4 minutes ago</p>

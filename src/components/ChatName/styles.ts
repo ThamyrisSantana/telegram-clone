@@ -87,4 +87,19 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 293px) {
+    .userInfo {
+      h1 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 9px;
+      }
+    }
+    .dots {
+      font-size: 1rem;
+    }
+  }
 `;

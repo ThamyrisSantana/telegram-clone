@@ -72,6 +72,22 @@ export const MessageContainerMe = styled.div`
       }
     }
   }
+
+  @media (max-width: 293px) {
+    width: 12rem;
+
+    h1 {
+      font-size: 12px;
+    }
+    div {
+      .check {
+        font-size: 16px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
 `;
 
 export const MessageContainer = styled.div`
@@ -122,5 +138,21 @@ export const MessageContainer = styled.div`
 
   @media (max-width: 338px) {
     width: 14rem;
+  }
+
+  @media (max-width: 293px) {
+    width: 12rem;
+
+    h1 {
+      font-size: 12px;
+    }
+    div {
+      .check {
+        font-size: 16px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
   }
 `;

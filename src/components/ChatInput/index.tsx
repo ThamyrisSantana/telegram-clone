@@ -1,20 +1,20 @@
 import React, { useState } from "react";
-import $ from "jquery";
+// import $ from "jquery";
 
 import { Container } from "./styles";
 import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { AiOutlinePaperClip } from "react-icons/ai";
 import { BiMicrophone } from "react-icons/bi";
-import { HiPaperAirplane } from "react-icons/hi";
+import { RiSendPlane2Fill } from "react-icons/ri";
 
 const ChatInput: React.FC = () => {
   const [iconToggle, setIconToggle] = useState(false);
   function onChange() {
-    if ($(".input").val()) {
-      setIconToggle(true);
-    } else {
-      setIconToggle(false);
-    }
+    // if ($(".input").val()) {
+    //   setIconToggle(true);
+    // } else {
+    //   setIconToggle(false);
+    // }
   }
 
   console.log(setIconToggle);
@@ -37,7 +37,7 @@ const ChatInput: React.FC = () => {
               <HiOutlineEmojiHappy />
             </button>
             <button>
-              <HiPaperAirplane className="sendMessage" />
+              <RiSendPlane2Fill className="sendMessage" />
             </button>
             /
           </>

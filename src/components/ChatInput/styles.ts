@@ -118,4 +118,17 @@ export const Container = styled.div`
       font-size: 1.5rem;
     }
   }
+
+  @media (max-width: 293px) {
+    input {
+      width: 32%;
+      ::placeholder {
+        font-size: 13px;
+      }
+    }
+    button {
+      margin: 0 12px;
+      font-size: 20px;
+    }
+  }
 `;
