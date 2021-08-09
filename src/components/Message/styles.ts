@@ -17,6 +17,7 @@ export const MessageContainerMe = styled.div`
   color: #edeef7;
   border-radius: 10px;
   align-self: flex-end;
+  margin-top: 0.5rem;
 
   h1 {
     align-self: center;
