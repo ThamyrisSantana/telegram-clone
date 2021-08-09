@@ -9,10 +9,11 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: flex-end;
 `;
+
 export const MessageContainer = styled.div`
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
 
   padding: 2rem 2rem;
 `;
