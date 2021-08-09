@@ -1,11 +1,9 @@
-import React from "react";
-
 import "./styles";
 
 export interface Props {
   name: string;
-  message: string;
-  hour: string;
+  message?: string;
+  hour?: string;
   img?: string;
 }
 

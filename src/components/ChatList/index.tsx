@@ -1,25 +1,8 @@
-import React, { useEffect, useState } from "react";
-
 import { Container } from "./styles";
 
 import Chat from "./chat";
 
 const ChannelList: React.FC = () => {
-  const [chatData, setChatData] = useState([]);
-
-  useEffect(() => {
-    async function loadData() {
-      const api = await fetch("http://localhost:3000/chats");
-      const result = await api.json();
-      console.log(result);
-      setChatData(result);
-    }
-
-    loadData();
-  }, []);
-
-  console.log(chatData);
-
   return (
     <Container>
       <Chat
@@ -69,9 +52,5 @@ const ChannelList: React.FC = () => {
     </Container>
   );
 };
-
-//{chatData.map((data) => {
-//  <Chat name={data.name} message="" hour="" key={data.id} />;
-//})}
 
 export default ChannelList;
