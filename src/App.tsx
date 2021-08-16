@@ -1,16 +1,16 @@
 // import Card from "./components/Card/Card";
 
 import { GlobalStyle } from "./styles/GlobalStyle";
-import Layout from "./components/Layout/index";
-// import Routes from "./router";
+
+import Routes from "./routes";
 
 function App() {
   return (
     <>
-      <Layout />
-      {/* <Routes /> */}
-
-      <GlobalStyle />
+      <div>
+        <Routes />
+        <GlobalStyle />
+      </div>
     </>
   );
 }

@@ -4,7 +4,6 @@ import { Container, MessageContainer } from "./styles";
 import { InputContainer } from "../ChatInput/styles";
 
 import MessageMe from "../Message/index";
-// import InputContainer from "../ChatInput";]]
 
 import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { AiOutlinePaperClip } from "react-icons/ai";
@@ -32,21 +31,17 @@ const ChannalData: React.FC = () => {
   };
 
   const addMessage = () => {
-    const newArray = [...messages, { value: text }];
+    const newArray = [...messages, { value: text, id: messages.length }];
 
     setmessages(newArray);
     setText("");
   };
 
   const onKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    console.log(e.key);
     if (e.key === "Enter") {
       addMessage();
     }
   };
-
-  console.log(text);
-  console.log(messages);
 
   return (
     <Container>
