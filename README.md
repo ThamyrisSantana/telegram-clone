@@ -1,4 +1,5 @@
 # Telegram Clone
 
+https://user-images.githubusercontent.com/73114457/140587757-e07527b7-4872-48ca-becd-75eeef7bbfde.mp4
 
-![Preview](https://cdn.discordapp.com/attachments/877998509066948618/906262315257704458/Captura_de_tela_de_2021-10-10_13-15-00.png)
+![Telegram image](https://user-images.githubusercontent.com/73114457/140587594-f08403df-dbe9-423f-8f18-7fe6228d01cd.png)
